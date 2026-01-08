@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #80A1BA;
+    text-align: center;
+}
+h1{
+    color: #B4DEBD;
+    margin-top: 4vmin;
+    margin-bottom: 4vmin;
+    font-size: 6vmin;
+    font-weight: 900;
+    text-decoration: dashed underline #FFF7DD;
+}
+.container{
+    height: 70vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.4rem;
+    border: none;
+    box-shadow: 0 0 1.2rem #364958;
+    font-size: 8vmin;
+    background-color:#FFF7DD ;
+    color: #91C4C3;
+}
+#reset{
+    height: 9vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1.4rem;
+    background-color: #FFF7DD;
+    color: #B4DEBD;
+    box-shadow: 0 0 1.2rem #364958;
+    font-size: 1rem;
+    font-weight: 900;
+}
+#newGame{
+    height: 9vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1.4rem;
+    background-color: #FFF7DD;
+    color: #B4DEBD;
+    box-shadow: 0 0 1.2rem #364958;
+    font-size: 1rem;
+    font-weight: 900;
+    
+}
+#msg{
+    font-size: 8vmin;
+    font-weight: 900;
+    color: #FFF7DD;
+    ;
+
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15vmin;
+}
+.hide{
+    display: none;
+}
+.msg-container2{
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15vmin;
+}
+#msg-2{
+    font-size: 8vmin;
+    font-weight: 900;
+    color: #FFF7DD;
+    ;
+
+}
+#newGame2{
+    height: 9vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1.4rem;
+    background-color: #FFF7DD;
+    color: #B4DEBD;
+    box-shadow: 0 0 1.2rem #364958;
+    font-size: 1rem;
+    font-weight: 900;
+    
+}
+.hide2{
+    display: none;
+}
