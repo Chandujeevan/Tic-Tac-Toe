@@ -6,6 +6,7 @@ let msgContainer= document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
 let msgContainer2= document.querySelector(".msg-container2");
 let msg2 = document.querySelector("#msg-2");
+let mainContainer = document.querySelector(".main");
 let turn0 = true;
 const winPatterns = [
     [0,1,2],
@@ -21,6 +22,7 @@ const resetGame = () =>{
     enableBoxs();
     msgContainer.classList.add("hide");
     msgContainer2.classList.add("hide2");
+    mainContainer.classList.remove("hide3");
     turn0 = true;
 }
 const checkDraw = () => {
@@ -56,11 +58,13 @@ const enableBoxs = () =>{
 const showWinner = (Winner) =>{
     msg.innerText = `Congratulations , Winner is ${Winner}`;
     msgContainer.classList.remove("hide");
+    mainContainer.classList.add("hide3");
     disableBoxs();
 }
 const showDraw = () =>{
     msg2.innerText = `Game was Draw!`;
     msgContainer2.classList.remove("hide2");
+    mainContainer.classList.add("hide3");
     disableBoxs();
 }
 const checkWinner = () => {
