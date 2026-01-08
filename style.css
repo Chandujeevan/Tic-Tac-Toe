@@ -40,6 +40,11 @@ h1{
     font-size: 8vmin;
     background-color:#FFF7DD ;
     color: #91C4C3;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.box:hover{
+    transform: scale(1.05);
 }
 #reset{
     height: 9vmin;
