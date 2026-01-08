@@ -1,6 +1,6 @@
 # **⭕ Tic-Tac-Toe Web Game ❌**
-[**🚀 Live Demo**](http://127.0.0.1:5500/Tic-Tac-Toe/idex.html)
-A sleek, responsive, and interactive Tic-Tac-Toe game built using  JavaScript, CSS, and HTML. This project features a modern UI with pastel aesthetics and a fully functional game logic system.
+[**🔗 Live Demo**](https://chandujeevan.github.io/Tic-Tac-Toe/)
+> A sleek, responsive, and interactive Tic-Tac-Toe game built using  JavaScript, CSS, and HTML. This project features a modern UI with pastel aesthetics and a fully functional game logic system.
 ## ✨ Features
 - Interactive Gameplay: Smooth turn-based mechanics between Player "O" and Player "X".
 
